@@ -15,13 +15,13 @@ def plotImages(images_arr):
 
 # data loading
 
-"""
+
 url = 'https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip'
 zip_dir = tf.keras.utils.get_file('cats_and_dogs_filtered.zip', url, extract=True)
 
 base_dir = os.path.join(zip_dir, os.path.dirname(zip_dir), 'cats_and_dogs_filtered')
-"""
-base_dir = 'C:\\Users\\kara\\.keras\\datasets\\cats_and_dogs_filtered'
+
+#base_dir = 'C:\\Users\\kara\\.keras\\datasets\\cats_and_dogs_filtered'
 
 train_dir = os.path.join(base_dir, 'train')
 val_dir = os.path.join(base_dir, 'validation')
